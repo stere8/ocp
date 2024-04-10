@@ -1,0 +1,182 @@
+html {
+    font-size: 14px; /* Base font size */
+}
+
+/* Media query for tablet and larger screens */
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+    /* Add styles specific to tablets and larger here */
+}
+
+/* General button focus styles, applied at all sizes */
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus,
+.form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px; /* Reserve space for a potential fixed footer */
+}
+
+.hero-section, .hero-section-bis {
+    background-color: #006D77;
+    color: #ffffff;
+    padding: 20px; /* Reduce padding on smaller screens */
+    font-family: 'Crimson Pro', serif;
+    font-weight: 400;
+    text-align: center;
+    font-size: 1em; /* Adjust for optimal reading on phones */
+}
+
+.lead {
+    font-size: 1.5em;
+    font-style: italic;
+    font-weight: bold;
+    color: #be5e10;
+}
+
+.navbar {
+    background-color: #001623;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+/* Responsive navigation */
+@media (max-width: 767px) { /* Adjust breakpoint if needed */
+    .navbar-nav {
+        justify-content: flex-start; /* Or wherever you want to align */
+        flex-direction: column; /* Stack items vertically */
+        text-align: center; /* Center text within nav items */
+    }
+}
+
+ul {
+    list-style-position: inside;
+}
+
+.technology {
+    color: #be5e10;
+    font-weight: bold;
+}
+
+.skill-box {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: #001623;
+    color: #ffffff;
+}
+
+.skill-item {
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    padding: 5px 8px;
+    border-radius: 3px;
+}
+/* Target all unvisited links (default state) */
+a:link {
+    color: gold;
+}
+
+/* Target visited links (previously clicked) */
+a:visited {
+    color: goldenrod;
+}
+
+/* Target links on hover (mouse over) */
+a:hover {
+    color: black; /* You can choose a different hover color here if desired */
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif; /* Choose your preferred font */
+    margin: 0;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #ffffff; /* Match the color from your other sections */
+}
+
+/* Section Styling */
+section {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+/* List Styling */
+ul {
+    list-style-type: disc; /* Or choose a different list marker */
+    padding-left: 30px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Testimonials Styling */
+blockquote
+{
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+cite {
+    display: block;
+    font-weight: bold;
+    text-align: right;
+}
+
+/* Contact Me Styling */
+.contact-info {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+}
+/* contact-styles.css */
+form {
+    width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    background-color: #4CAF50; /* Example color */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}

@@ -1,0 +1,31 @@
+﻿@page
+@model ContactModel 
+@{
+    ViewData["Title"] = "About Me";
+}
+
+<div class="container hero-section-bis">
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Let's connect</h2> 
+
+            <p>Please use this form to contact us with any questions or feedback:</p>
+
+            <form method="post">
+                <div>
+                    <label asp-for="Name">Your Name:</label>
+                    <input asp-for="Name" />
+                </div>
+                <div>
+                    <label asp-for="Email">Email:</label>
+                    <input asp-for="Email" />
+                </div>
+                <div>
+                    <label asp-for="Message">Message:</label>
+                    <textarea asp-for="Message"></textarea>
+                </div>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </div>
+</div>

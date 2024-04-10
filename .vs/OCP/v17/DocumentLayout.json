@@ -1,0 +1,281 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\twizo\\source\\repos\\OCP\\OCP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F5A787BE-5AD1-4378-8166-CFE3BC816A9C}|OCP.csproj|c:\\users\\twizo\\source\\repos\\ocp\\ocp\\ocp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F5A787BE-5AD1-4378-8166-CFE3BC816A9C}|OCP.csproj|solutionrelative:ocp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5A787BE-5AD1-4378-8166-CFE3BC816A9C}|OCP.csproj|c:\\users\\twizo\\source\\repos\\ocp\\ocp\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5A787BE-5AD1-4378-8166-CFE3BC816A9C}|OCP.csproj|solutionrelative:pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5A787BE-5AD1-4378-8166-CFE3BC816A9C}|OCP.csproj|c:\\users\\twizo\\source\\repos\\ocp\\ocp\\pages\\contact.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5A787BE-5AD1-4378-8166-CFE3BC816A9C}|OCP.csproj|solutionrelative:pages\\contact.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5A787BE-5AD1-4378-8166-CFE3BC816A9C}|OCP.csproj|c:\\users\\twizo\\source\\repos\\ocp\\ocp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{F5A787BE-5AD1-4378-8166-CFE3BC816A9C}|OCP.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5A787BE-5AD1-4378-8166-CFE3BC816A9C}|OCP.csproj|c:\\users\\twizo\\source\\repos\\ocp\\ocp\\pages\\programming.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5A787BE-5AD1-4378-8166-CFE3BC816A9C}|OCP.csproj|solutionrelative:pages\\programming.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5A787BE-5AD1-4378-8166-CFE3BC816A9C}|OCP.csproj|c:\\users\\twizo\\source\\repos\\ocp\\ocp\\pages\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5A787BE-5AD1-4378-8166-CFE3BC816A9C}|OCP.csproj|solutionrelative:pages\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5A787BE-5AD1-4378-8166-CFE3BC816A9C}|OCP.csproj|c:\\users\\twizo\\source\\repos\\ocp\\ocp\\pages\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5A787BE-5AD1-4378-8166-CFE3BC816A9C}|OCP.csproj|solutionrelative:pages\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5A787BE-5AD1-4378-8166-CFE3BC816A9C}|OCP.csproj|c:\\users\\twizo\\source\\repos\\ocp\\ocp\\pages\\aboutme.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5A787BE-5AD1-4378-8166-CFE3BC816A9C}|OCP.csproj|solutionrelative:pages\\aboutme.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5A787BE-5AD1-4378-8166-CFE3BC816A9C}|OCP.csproj|c:\\users\\twizo\\source\\repos\\ocp\\ocp\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5A787BE-5AD1-4378-8166-CFE3BC816A9C}|OCP.csproj|solutionrelative:pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5A787BE-5AD1-4378-8166-CFE3BC816A9C}|OCP.csproj|c:\\users\\twizo\\source\\repos\\ocp\\ocp\\pages\\languages.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5A787BE-5AD1-4378-8166-CFE3BC816A9C}|OCP.csproj|solutionrelative:pages\\languages.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5A787BE-5AD1-4378-8166-CFE3BC816A9C}|OCP.csproj|c:\\users\\twizo\\source\\repos\\ocp\\ocp\\pages\\programming.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5A787BE-5AD1-4378-8166-CFE3BC816A9C}|OCP.csproj|solutionrelative:pages\\programming.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5A787BE-5AD1-4378-8166-CFE3BC816A9C}|OCP.csproj|c:\\users\\twizo\\source\\repos\\ocp\\ocp\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F5A787BE-5AD1-4378-8166-CFE3BC816A9C}|OCP.csproj|solutionrelative:pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5A787BE-5AD1-4378-8166-CFE3BC816A9C}|OCP.csproj|c:\\users\\twizo\\source\\repos\\ocp\\ocp\\properties\\publishprofiles\\folderprofile.pubxml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{F5A787BE-5AD1-4378-8166-CFE3BC816A9C}|OCP.csproj|solutionrelative:properties\\publishprofiles\\folderprofile.pubxml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5A787BE-5AD1-4378-8166-CFE3BC816A9C}|OCP.csproj|c:\\users\\twizo\\source\\repos\\ocp\\ocp\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F5A787BE-5AD1-4378-8166-CFE3BC816A9C}|OCP.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5A787BE-5AD1-4378-8166-CFE3BC816A9C}|OCP.csproj|c:\\users\\twizo\\source\\repos\\ocp\\ocp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5A787BE-5AD1-4378-8166-CFE3BC816A9C}|OCP.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cf577b8c-4134-11d2-83e5-00c04f9902c1}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\twizo\\source\\repos\\OCP\\OCP\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\twizo\\source\\repos\\OCP\\OCP\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-08T18:02:08.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Contact.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\twizo\\source\\repos\\OCP\\OCP\\Pages\\Contact.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Contact.cshtml.cs",
+              "ToolTip": "C:\\Users\\twizo\\source\\repos\\OCP\\OCP\\Pages\\Contact.cshtml.cs",
+              "RelativeToolTip": "Pages\\Contact.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T17:39:23.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Languages.cshtml",
+              "DocumentMoniker": "C:\\Users\\twizo\\source\\repos\\OCP\\OCP\\Pages\\Languages.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Languages.cshtml",
+              "ToolTip": "C:\\Users\\twizo\\source\\repos\\OCP\\OCP\\Pages\\Languages.cshtml",
+              "RelativeToolTip": "Pages\\Languages.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-08T16:35:12.098Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OCP.csproj",
+              "DocumentMoniker": "C:\\Users\\twizo\\source\\repos\\OCP\\OCP\\OCP.csproj",
+              "RelativeDocumentMoniker": "OCP.csproj",
+              "ToolTip": "C:\\Users\\twizo\\source\\repos\\OCP\\OCP\\OCP.csproj",
+              "RelativeToolTip": "OCP.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-08T16:08:07.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FolderProfile.pubxml",
+              "DocumentMoniker": "C:\\Users\\twizo\\source\\repos\\OCP\\OCP\\Properties\\PublishProfiles\\FolderProfile.pubxml",
+              "RelativeDocumentMoniker": "Properties\\PublishProfiles\\FolderProfile.pubxml",
+              "ToolTip": "C:\\Users\\twizo\\source\\repos\\OCP\\OCP\\Properties\\PublishProfiles\\FolderProfile.pubxml",
+              "RelativeToolTip": "Properties\\PublishProfiles\\FolderProfile.pubxml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-04-08T15:45:56.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "C:\\Users\\twizo\\source\\repos\\OCP\\OCP\\Pages\\Contact.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Contact.cshtml",
+              "ToolTip": "C:\\Users\\twizo\\source\\repos\\OCP\\OCP\\Pages\\Contact.cshtml",
+              "RelativeToolTip": "Pages\\Contact.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-06T21:47:46.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\twizo\\source\\repos\\OCP\\OCP\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\twizo\\source\\repos\\OCP\\OCP\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AQIAABQAAAAAMjMzMzMkwCEAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-04-06T21:13:33.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\twizo\\source\\repos\\OCP\\OCP\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\twizo\\source\\repos\\OCP\\OCP\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-06T18:28:37.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Programming.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\twizo\\source\\repos\\OCP\\OCP\\Pages\\Programming.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Programming.cshtml.cs",
+              "ToolTip": "C:\\Users\\twizo\\source\\repos\\OCP\\OCP\\Pages\\Programming.cshtml.cs",
+              "RelativeToolTip": "Pages\\Programming.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T17:27:49.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Programming.cshtml",
+              "DocumentMoniker": "C:\\Users\\twizo\\source\\repos\\OCP\\OCP\\Pages\\Programming.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Programming.cshtml",
+              "ToolTip": "C:\\Users\\twizo\\source\\repos\\OCP\\OCP\\Pages\\Programming.cshtml",
+              "RelativeToolTip": "Pages\\Programming.cshtml",
+              "ViewState": "AQIAAMIAAABgzMzMzMwnwE0AAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-06T16:44:00.163Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\twizo\\source\\repos\\OCP\\OCP\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\twizo\\source\\repos\\OCP\\OCP\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAACMAAADAMjMzMzMLwCAAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-06T16:28:40.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AboutMe.cshtml",
+              "DocumentMoniker": "C:\\Users\\twizo\\source\\repos\\OCP\\OCP\\Pages\\AboutMe.cshtml",
+              "RelativeDocumentMoniker": "Pages\\AboutMe.cshtml",
+              "ToolTip": "C:\\Users\\twizo\\source\\repos\\OCP\\OCP\\Pages\\AboutMe.cshtml",
+              "RelativeToolTip": "Pages\\AboutMe.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-06T16:28:07.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\twizo\\source\\repos\\OCP\\OCP\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\twizo\\source\\repos\\OCP\\OCP\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "Pages\\Index.cshtml.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAqwDoAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T16:27:57.824Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\twizo\\source\\repos\\OCP\\OCP\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\twizo\\source\\repos\\OCP\\OCP\\Pages\\Index.cshtml",
+              "RelativeToolTip": "Pages\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-06T16:26:59.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\twizo\\source\\repos\\OCP\\OCP\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\twizo\\source\\repos\\OCP\\OCP\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAUwBgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T16:20:18.663Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

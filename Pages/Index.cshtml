@@ -1,0 +1,40 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="container ">
+    <div class="row hero-section"> 
+        <div class="col-md-12 text-center"> 
+            <h1>Crafting Technical Solutions with Multilingual Flair</h1> 
+            <p class="lead">From code to communication, shaping your vision</p>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-center mt-5">
+                <h1>Hey, welcome to my OC Portfolio!</h1>
+                <p>Thank you for taking an interest in my work. This page serves as a comprehensive showcase of my programming styles, skills, and overall profile. I am a passionate developer adept at crafting technical solutions that are not only functional but also linguistically sound.</p>
+                <p>**Download my CV to learn more about my experience and skills.** <a href="~/docs/CV - Oreste BO+(EN).pdf" download="CV Oreste TWIZEYIMANA">Download CV</a></p>
+
+                <p>From code to communication, shaping your vision<br>
+                    I'm a Oreste TWIZEYIMANA, a Programmer Developer with @Model.YearsOfExperience years of experience in the field. I'm passionate about creating innovative and user-friendly software solutions. </p>
+
+                <div class="row skills-section"> 
+                    @foreach (var skillCategory in @Model.DeveloperSkills)
+                    {
+                        <div class="col-md-6"> 
+                            <h3>@skillCategory.Key</h3>
+                            <div class="skill-box">  
+                                @foreach (var skill in skillCategory.Value)
+                                {
+                                    <p class="skill-item">@skill</p> 
+                                }
+                            </div> 
+                        </div>
+                    }
+                </div>
+                <p>Whether you're seeking a skilled programmer for collaboration, valuable advice on a project, or simply have an inquiry, feel free to reach out to me. I'm always happy to connect and discuss potential opportunities.</p>
+            </div>
+                </div>
+    </div>
+</div>
