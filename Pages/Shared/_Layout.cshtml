@@ -1,10 +1,10 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>OC Portfolio</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
@@ -12,52 +12,86 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" type="text/css" href="~/css/site.css" asp-append-version="true"/>
 
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-md navbar-light container-fluid">
-            <a class="navbar-brand" asp-page="/Index">
-                <img src="~/img/Logo.jpg" alt="Oculus Consults Portfolio" class="logo" />
-            </a>
+<header>
+    <nav class="navbar navbar-expand-md navbar-light container-fluid">
+        <a class="navbar-brand" asp-page="/Index">
+            <img src="~/img/Logo.jpg" alt="Oculus Consults Portfolio" class="logo"/>
+        </a>
 
-            <!-- Button for toggling navigation menu on small screens -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+        <!-- Button for toggling navigation menu on small screens -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-            <!-- Navigation items -->
-            <div class="collapse navbar-collapse" id="mainNavbar">
-                <!-- Use "mr-auto" to align items to the left -->
-                <ul class="navbar-nav mr-auto">
-                    <!-- Changed "ms-auto" to "mr-auto" -->
-                    <meta name="viewport" content="width=device-width, initial-scale=1">
-                    <li class="nav-item"><a class="nav-link" asp-page="/Programming">Programming</a></li>
-                    <li class="nav-item"><a class="nav-link" asp-page="/Languages">Languages</a></li>
-                    <li class="nav-item"><a class="nav-link" asp-page="/Contact">Contact</a></li>
-                    <li class="nav-item"><a class="nav-link" href="~/docs/CV - Oreste BO+(EN).pdf" download="CV Oreste TWIZEYIMANA"><i class="fa-solid fa-download"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
+        <!-- Navigation items -->
+        <div class="collapse navbar-collapse" id="mainNavbar">
+            <!-- Use "mr-auto" to align items to the left -->
+            <ul class="navbar-nav mr-auto">
+                <!-- Changed "ms-auto" to "mr-auto" -->
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                <li class="nav-item">
+                    <a class="nav-link" asp-page="/Programming">Programming</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-page="/Languages">Languages</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-page="/Contact">Contact</a>
+                </li>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2024 - OCP - <a asp-area="" asp-page="/Privacy">Privacy</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <button class="dropbtn">
+                        Dropdown
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <form asp-page-handler="SetLanguage" asp-route-returnUrl="@Url.Page("")" method="post" class="p-2">
+                            <select id="languageDropdown" name="culture" onchange="this.form.submit()" class="form-control">
+                                <option value="en-US">
+                                    English <i class="flag-icon flag-icon-us"></i>
+                                </option>
+                                <option value="es">
+                                    Español <i class="flag-icon flag-icon-es"></i>
+                                </option>
+                                <option value="fr-FR">
+                                    Français <i class="flag-icon flag-icon-fr"></i>
+                                </option>
+                                <option value="pl-PL">
+                                    Polski <i class="flag-icon flag-icon-pl"></i>
+                                </option>
+                            </select>
+                        </form>
+                    </div>
+
+                    <li class="nav-item">
+                    <a class="nav-link" href="~/docs/CV - Oreste BO+(EN).pdf" download="CV Oreste TWIZEYIMANA">
+                        <i class="fa-solid fa-download"></i>
+                    </a>
+                </li>
+                </div>
+            </ul>
         </div>
-    </footer>
+    </nav>
+</header>
+<div class="container">
+    <main role="main" class="pb-3">
+        @RenderBody()
+    </main>
+</div>
 
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
-    @await RenderSectionAsync("Scripts", required: false)
+<footer class="border-top footer text-muted">
+    <div class="container">
+        &copy; 2024 - OCP - <a asp-area="" asp-page="/Privacy">Privacy</a>
+    </div>
+</footer>
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="~/js/site.js" asp-append-version="true"></script>
+@await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

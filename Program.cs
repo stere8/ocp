@@ -1,23 +1,59 @@
+using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Localization;
+using System.Globalization;
+using Microsoft.AspNetCore.Localization;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+// Configure services
 builder.Services.AddRazorPages();
+
+var supportedCultures = new[]
+{
+    new CultureInfo("en"),
+    new CultureInfo("es"),
+    new CultureInfo("fr"),
+    new CultureInfo("pl")
+};
+
+builder.Services.AddLocalization(options => options.ResourcesPath = "Resources");
+builder.Services.AddRazorPages().AddViewLocalization();
+
+builder.Services.Configure<RequestLocalizationOptions>(options =>
+{
+    options.DefaultRequestCulture = new RequestCulture("pl");
+    options.SupportedCultures = supportedCultures;
+    options.SupportedUICultures = supportedCultures;
+});
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
-if (!app.Environment.IsDevelopment())
+// Configure the HTTP request pipeline
+if (app.Environment.IsDevelopment())
+{
+    app.UseDeveloperExceptionPage();
+}
+else
 {
     app.UseExceptionHandler("/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
-app.UseRouting();
+// Enable localization
+app.UseRequestLocalization(new RequestLocalizationOptions
+{
+    DefaultRequestCulture = new RequestCulture("pl"),
+    SupportedCultures = supportedCultures,
+    SupportedUICultures = supportedCultures
+});
 
+app.UseRouting();
 app.UseAuthorization();
 
 app.MapRazorPages();

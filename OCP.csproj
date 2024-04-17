@@ -11,7 +11,40 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="wwwroot\img\" />
+      <Folder Include="wwwroot\img\flags\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Update="Pages\Resources\Index\index.fr.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>index.fr.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Pages\Resources\Index\index.pl.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>index.pl.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Pages\Resources\Index\index.es.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>index.es.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Update="Pages\Resources\Index\index.fr.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>index.fr.resx</DependentUpon>
+      </Compile>
+      <Compile Update="Pages\Resources\Index\index.pl.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>index.pl.resx</DependentUpon>
+      </Compile>
+      <Compile Update="Pages\Resources\Index\index.es.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>index.es.resx</DependentUpon>
+      </Compile>
     </ItemGroup>
 
 </Project>

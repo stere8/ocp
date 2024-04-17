@@ -180,3 +180,47 @@ button[type="submit"] {
     border-radius: 4px;
     cursor: pointer;
 }
+/* Style the dropdown */
+#languageDropdown {
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    background-image: url('/images/flags/flag-en.png'); /* Default flag image */
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    padding-left: 40px; /* Adjust padding to accommodate flag image */
+    appearance: none; /* Hide default dropdown arrow in some browsers */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+/* Style individual options (flags) */
+#languageDropdown option {
+    padding: 10px;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+}
+
+/* Flag icons for each option */
+#languageDropdown option[value="en-US"] {
+    background-image: url('https://flagcdn.com/16x12/gb.png');
+}
+
+#languageDropdown option[value="es-ES"] {
+    background-image: url('https://flagcdn.com/16x12/es.png');
+}
+
+#languageDropdown option[value="fr-FR"] {
+    background-image: url('https://flagcdn.com/16x12/fr.png');
+}
+
+#languageDropdown option[value="pl-PL"] {
+    background-image: url('https://flagcdn.com/16x12/pl.png');
+}
+.flag-icon {
+    width: 16px;
+    height: 12px;
+    margin-right: 8px;
+}

@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <!-- Document header and schema omitted for brevity -->
+    <data name="HomePageTitle" xml:space="preserve">
+        <value>Página de inicio</value>
+    </data>
+    <data name="CraftingTechnicalSolutionsHeading" xml:space="preserve">
+        <value>Creando soluciones técnicas con un toque multilingüe</value>
+    </data>
+    <data name="FromCodeToCommunicationSubheading" xml:space="preserve">
+        <value>Desde el código hasta la comunicación, dando forma a tu visión</value>
+    </data>
+    <data name="WelcomeToMyPortfolio" xml:space="preserve">
+        <value>¡Hola, bienvenido a mi portafolio OC!</value>
+    </data>
+    <data name="InterestInMyWork" xml:space="preserve">
+        <value>Gracias por interesarte en mi trabajo. Esta página sirve como una presentación completa de mis estilos de programación, habilidades y perfil general. Soy un desarrollador apasionado capaz de crear soluciones técnicas que no solo sean funcionales, sino también lingüísticamente adecuadas.</value>
+    </data>
+    <data name="DownloadCV" xml:space="preserve">
+        <value>Descarga mi CV para conocer más sobre mi experiencia y habilidades.</value>
+    </data>
+    <data name="ShapingYourVision" xml:space="preserve">
+        <value>Desde el código hasta la comunicación, dando forma a tu visión. Soy Oreste TWIZEYIMANA, un programador con {0} años de experiencia en el campo. Me apasiona crear soluciones de software innovadoras y amigables para el usuario.</value>
+    </data>
+    <data name="SeekingCollaboration" xml:space="preserve">
+        <value>Ya sea que estés buscando un programador hábil para colaborar, consejos valiosos sobre un proyecto, o simplemente tengas una consulta, no dudes en contactarme. Siempre estoy feliz de conectarme y discutir oportunidades potenciales.</value>
+    </data>
+
+    <!-- Development Skills -->
+    <data name="Development_WPF" xml:space="preserve">
+        <value>WPF</value>
+    </data>
+    <data name="Development_EntityFramework" xml:space="preserve">
+        <value>Entity Framework</value>
+    </data>
+    <data name="Development_SQL" xml:space="preserve">
+        <value>SQL</value>
+    </data>
+    <data name="Development_Git" xml:space="preserve">
+        <value>Git</value>
+    </data>
+    <data name="Development_CICDPractices" xml:space="preserve">
+        <value>Prácticas de CI/CD</value>
+    </data>
+    <data name="Development_HTML" xml:space="preserve">
+        <value>HTML</value>
+    </data>
+    <data name="Development_CSS" xml:space="preserve">
+        <value>CSS</value>
+    </data>
+    <data name="Development_VueJs" xml:space="preserve">
+        <value>Vue.js</value>
+    </data>
+
+    <!-- Process Improvement Skills -->
+    <data name="ProcessImprovement_Streamlining" xml:space="preserve">
+        <value>Optimización</value>
+    </data>
+    <data name="ProcessImprovement_Integration" xml:space="preserve">
+        <value>Integración</value>
+    </data>
+    <data name="ProcessImprovement_Optimization" xml:space="preserve">
+        <value>Optimización</value>
+    </data>
+    <data name="ProcessImprovement_AgileScrum" xml:space="preserve">
+        <value>Metodologías Agile/Scrum</value>
+    </data>
+
+    <!-- Problem Solving Skills -->
+    <data name="ProblemSolving_Debugging" xml:space="preserve">
+        <value>Depuración</value>
+    </data>
+    <data name="ProblemSolving_CodeReview" xml:space="preserve">
+        <value>Revisión de código</value>
+    </data>
+    <data name="ProblemSolving_CleanCodeWriting" xml:space="preserve">
+        <value>Escritura de código limpio</value>
+    </data>
+    <data name="ProblemSolving_ProjectDocumentation" xml:space="preserve">
+        <value>Documentación del proyecto</value>
+    </data>
+
+    <!-- Customer Focus -->
+    <data name="CustomerFocus_ImprovedCustomerExperiences" xml:space="preserve">
+        <value>Mejora de experiencias de cliente a través de procesos optimizados y aplicaciones mejoradas</value>
+    </data>
+
+    <!-- Adaptability -->
+    <data name="Adaptability_QuickLearner" xml:space="preserve">
+        <value>Aprendizaje rápido</value>
+    </data>
+    <data name="Adaptability_OpenToNewTechnologies" xml:space="preserve">
+        <value>Abierto a nuevas tecnologías</value>
+    </data>
+
+    <!-- Soft Skills -->
+    <data name="SoftSkills_Dedication" xml:space="preserve">
+        <value>Dedicación</value>
+    </data>
+    <data name="SoftSkills_HardWork" xml:space="preserve">
+        <value>Trabajo duro</value>
+    </data>
+    <data name="SoftSkills_Teamwork" xml:space="preserve">
+        <value>Trabajo en equipo</value>
+    </data>
+</root>

@@ -1,13 +1,12 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace OCP.Pages;
-
 public class IndexModel : PageModel
 {
     private readonly ILogger<IndexModel> _logger;
-    public string YearsOfExperience;
-    public Dictionary<string, List<string>> DeveloperSkills;
+    
+    // Encapsulate DeveloperSkills as a property
+    public Dictionary<string, List<string>> DeveloperSkills { get; private set; }
 
     public IndexModel(ILogger<IndexModel> logger)
     {
@@ -16,8 +15,7 @@ public class IndexModel : PageModel
 
     public void OnGet()
     {
-        YearsOfExperience = DateTime.Now.Subtract(new DateTime(2021, 09, 13)).Days % 365 == 0 ? "" : "over " + DateTime.Now.Subtract(new DateTime(2021, 09, 13)).Days / 365;
-        
+        // Initialize DeveloperSkills dictionary in OnGet method
         DeveloperSkills = new Dictionary<string, List<string>>
         {
             { "Development", new List<string>
@@ -70,5 +68,18 @@ public class IndexModel : PageModel
                 }
             }
         };
+    }
+    
+    public IActionResult OnPostSetLanguage(string culture, string returnUrl)
+    {
+        if (!string.IsNullOrEmpty(culture))
+        {
+            // Set the selected culture as the current UI culture
+            System.Threading.Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo(culture);
+            System.Threading.Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo(culture);
+        }
+
+        // Redirect back to the specified return URL
+        return LocalRedirect(returnUrl);
     }
 }
